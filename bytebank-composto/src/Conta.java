@@ -4,7 +4,7 @@ public class Conta {
 
 	int agencia;
 	int numero;
-	double saldo;
+	private double saldo;
 	Cliente titular;
 	
 
@@ -29,4 +29,14 @@ public class Conta {
 		}
 			return false;
 	}
+	
+	public double pegaSaldo(){
+		return this.saldo;
+	}
+	
+	
+	
+	
+	
+	
 }
