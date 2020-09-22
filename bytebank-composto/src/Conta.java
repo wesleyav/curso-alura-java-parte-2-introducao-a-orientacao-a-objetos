@@ -1,13 +1,12 @@
-package bytebank;
+
 
 public class Conta {
 
 	int agencia;
 	int numero;
 	double saldo;
-	String titular;
-	String cpf;
-	String profissao;
+	Cliente titular;
+	
 
 	public void deposita(double valor) {
 		this.saldo += valor;
