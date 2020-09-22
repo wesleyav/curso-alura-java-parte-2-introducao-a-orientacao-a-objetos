@@ -6,4 +6,8 @@ public class Conta {
 	int numero;
 	double saldo;
 	String titular;
+	
+	public void deposita(double valor){
+		this.saldo = saldo + valor;
+	}
 }
